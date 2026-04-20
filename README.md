@@ -9,10 +9,8 @@ recommendations and roster swap suggestions.
 
 ## Screenshot
 
-<!-- Replace this block with an actual screenshot after first run -->
-```
+
 ![](img/screen-01.png)
-```
 
 ---
 
