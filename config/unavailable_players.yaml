@@ -1,0 +1,56 @@
+# Unavailable Players — rostered by other teams in the league.
+#
+# Add every player already claimed in your league so that
+# get_available_players() knows to exclude them from the waiver pool.
+#
+# Same "Last, First" naming convention and MLBAM player_id as my_roster.yaml.
+# player_id is the authoritative key; name is a human-readable label.
+#
+# You do NOT need to duplicate players from my_roster.yaml here —
+# RosterManager combines both lists automatically.
+
+unavailable:
+  - name: "Judge, Aaron"
+    player_id: 592450
+
+  - name: "Ohtani, Shohei"
+    player_id: 660271
+
+  - name: "Soto, Juan"
+    player_id: 665742
+
+  - name: "Trout, Mike"
+    player_id: 545361
+
+  - name: "Rodriguez, Julio"
+    player_id: 677594
+
+  - name: "Strider, Spencer"
+    player_id: 675911
+
+  - name: "Cease, Dylan"
+    player_id: 656302
+
+  - name: "Acuna Jr., Ronald"
+    player_id: 660670
+
+  - name: "Goldschmidt, Paul"
+    player_id: 502671
+
+  - name: "Ramirez, Jose"
+    player_id: 608070
+
+  - name: "Turner, Trea"
+    player_id: 607208
+
+  - name: "Verlander, Justin"
+    player_id: 434378
+
+  - name: "Scherzer, Max"
+    player_id: 453286
+
+  - name: "Cole, Gerrit"
+    player_id: 543037
+
+  - name: "Bieber, Shane"
+    player_id: 669456

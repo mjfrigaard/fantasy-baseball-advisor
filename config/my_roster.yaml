@@ -1,0 +1,61 @@
+# My Fantasy Roster
+#
+# Player names must match pybaseball's "Last, First" format exactly.
+# player_id is the MLBAM ID shown in Baseball Savant URLs and returned
+# by pybaseball — it is the primary match key. Name is a human-readable
+# label and fallback only.
+#
+# Valid batter positions : C  1B  2B  3B  SS  OF
+# Valid pitcher positions : SP  RP
+#
+# A player may list multiple positions (e.g. multi-position eligibility).
+
+batters:
+  - name: "Freeman, Freddie"
+    player_id: 664034
+    positions: [1B]
+
+  - name: "Betts, Mookie"
+    player_id: 605141
+    positions: [2B, OF]
+
+  - name: "Tatis Jr., Fernando"
+    player_id: 665487
+    positions: [SS, OF]
+
+  - name: "Alvarez, Yordan"
+    player_id: 670541
+    positions: [OF]
+
+  - name: "Devers, Rafael"
+    player_id: 646240
+    positions: [3B]
+
+  - name: "Contreras, William"
+    player_id: 661388
+    positions: [C]
+
+  - name: "Lowe, Nathaniel"
+    player_id: 663993
+    positions: [1B]
+
+  - name: "Witt Jr., Bobby"
+    player_id: 677951
+    positions: [SS, 3B]
+
+pitchers:
+  - name: "Burnes, Corbin"
+    player_id: 669203
+    positions: [SP]
+
+  - name: "Alcantara, Sandy"
+    player_id: 645261
+    positions: [SP]
+
+  - name: "Diaz, Edwin"
+    player_id: 621242
+    positions: [RP]
+
+  - name: "Hader, Josh"
+    player_id: 623352
+    positions: [RP]
