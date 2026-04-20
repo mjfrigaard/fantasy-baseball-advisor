@@ -11,7 +11,7 @@ recommendations and roster swap suggestions.
 
 <!-- Replace this block with an actual screenshot after first run -->
 ```
-[ screenshot placeholder — run the app and capture src/app.py ]
+![](img/screen-01.png)
 ```
 
 ---
