@@ -1,5 +1,7 @@
 # ⚾ Fantasy Baseball Advisor
 
+See a deployed version of this applcation here: https://mjfrigaard-fantasy-baseball-advisor.share.connect.posit.cloud/
+
 A Streamlit web app and CLI for data-driven fantasy baseball decisions. Pulls
 real Statcast data via [pybaseball](https://github.com/jldbc/pybaseball),
 scores players with a weighted composite metric, and surfaces waiver-wire
